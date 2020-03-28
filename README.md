@@ -51,4 +51,8 @@ This was the basic testing setup.
 
 ---
 ## TODO
-- script file(.sh) to automate the user setup process.
+- [x] script file(.sh)  
+  - [x] Multi admin setup bash script.
+  - [ ] User setup bash script.
+- [ ] We can modify it's html also inside the running container `/opt/tljh/hub/share/jupyterhub/templates# `.
+- [ ] Docker-Compose
