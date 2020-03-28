@@ -1,5 +1,6 @@
 # TLJH_Docker
-The Littlest JupyterHub (TLJH) distribution helps you provide Jupyter Notebooks to 1-100 users on a single server.
+The Littlest JupyterHub (TLJH) distribution helps you provide Jupyter Notebooks to 1-100 users on a single server.  
+
 
 
 1. Clone this Repo  
@@ -45,7 +46,9 @@ root@277863f1ab7e:/home# ls
 jupyter-abc  jupyter-xyz
 ```
 
+This was the basic testing setup.  
+**Detailed info :** https://github.com/jupyterhub/the-littlest-jupyterhub
 
 ---
 ## TODO
-- script file to automate the user setup process.
+- script file(.sh) to automate the user setup process.
