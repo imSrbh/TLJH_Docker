@@ -9,7 +9,7 @@ The Littlest JupyterHub (TLJH) distribution helps you provide Jupyter Notebooks 
 ```
 docker build -t tljh-systemd . -f Dockerfile
 ```
-(___do not forget the period (.)___)
+___do not forget the period (.)___
 
 
 3. Run a docker container with the image in the background, while bind mounting your TLJH repository under /srv/src.
