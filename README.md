@@ -36,7 +36,7 @@ python3 /srv/src/bootstrap/bootstrap.py --admin admin:password
 
 6. You should be able to access the JupyterHub from your browser now at `http://localhost:12000`. Congratulations, you are set up to develop TLJH!
 
->If you want to add more user, from admin panal you can create user and when user will be signing in the password which he uses at that time oh his choice, that will will be the password for that user.
+>If you want to add more user, from admin panal you can create user and when user will be signing in the password of his choice which he uses at that first time sign in, that will will be the password for that user.
 
 Inside the container `/home` -> You can see the user as `jupyter-abc`, `jupyter-xyz`
 
