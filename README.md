@@ -53,7 +53,7 @@ This was the basic testing setup.
 ## TODO
 - [x] script file(.sh)  
   - [x] Multi admin setup bash script.  
-      <script src="https://gist.github.com/imSrbh/0349a99b393f351061b4a9932258816b.js"></script>
+        [admin_setup.sh](https://gist.github.com/imSrbh/0349a99b393f351061b4a9932258816b.js)
   - [ ] User setup bash script.
 - [ ] We can modify it's html also inside the running container `/opt/tljh/hub/share/jupyterhub/templates# `.
 - [ ] Docker-Compose
