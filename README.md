@@ -48,12 +48,44 @@ jupyter-abc  jupyter-xyz
 
 This was the basic testing setup.  
 **Detailed info :** https://github.com/jupyterhub/the-littlest-jupyterhub
+---
+### docker-compose
+1.  Clone the repo  
+2.
+```
+docker-compose up --build -d
+```
+
+3.
+```
+saurabh@srbh:~/Git/TLJH_Docker$ sudo docker run \
+   --privileged \
+   --detach \
+   --name=tljh-dev_web \
+   --publish 12000:80 \
+   --mount type=bind,source=$(pwd),target=/srv/src \
+   tljh_docker_web
+```  
+4. 
+```
+sudo docker exec -it tljh-dev_web /bin/bash
+```
+
+5.
+```
+python3 /srv/src/bootstrap/bootstrap.py --admin admin:password
+```
+
+6.
+
+goto localhost:12000
 
 ---
 ## TODO
 - [x] script file(.sh)  
   - [x] Multi admin setup bash script.  
         [admin_setup.sh](https://gist.github.com/imSrbh/0349a99b393f351061b4a9932258816b)
-  - [ ] User setup bash script.
-- [ ] We can modify it's html also inside the running container `/opt/tljh/hub/share/jupyterhub/templates# `.
-- [ ] Docker-Compose
+  ~~[ ] User setup bash script.~~
+  - [x] Docker-Compose
+- We can modify it's html also inside the running container `/opt/tljh/hub/share/jupyterhub/templates# `.
+
