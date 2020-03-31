@@ -84,8 +84,8 @@ goto localhost:12000
 ## TODO
 - [x] script file(.sh)  
   - [x] Multi admin setup bash script.  
-        [admin_setup.sh](https://gist.github.com/imSrbh/0349a99b393f351061b4a9932258816b)
-  ~~[ ] User setup bash script.~~
-  - [x] Docker-Compose
+        [admin_setup.sh](https://gist.github.com/imSrbh/0349a99b393f351061b4a9932258816b)  
+  ~~- [ ] User setup bash script.~~
+- [x] Docker-Compose
 - We can modify it's html also inside the running container `/opt/tljh/hub/share/jupyterhub/templates# `.
 
