@@ -46,8 +46,9 @@ root@277863f1ab7e:/home# ls
 jupyter-abc  jupyter-xyz
 ```
 
-This was the basic testing setup.  
-**Detailed info :** https://github.com/jupyterhub/the-littlest-jupyterhub
+#### This was the basic testing setup.  
+#### **Detailed info :** https://github.com/jupyterhub/the-littlest-jupyterhub
+
 ---
 ### docker-compose
 1.  Clone the repo  
@@ -85,7 +86,7 @@ goto localhost:12000
 - [x] script file(.sh)  
   - [x] Multi admin setup bash script.  
         [admin_setup.sh](https://gist.github.com/imSrbh/0349a99b393f351061b4a9932258816b)  
-  ~~- [ ] User setup bash script.~~
+      ~~User setup bash script.~~
 - [x] Docker-Compose
 - We can modify it's html also inside the running container `/opt/tljh/hub/share/jupyterhub/templates# `.
 
